@@ -1,0 +1,162 @@
+
+/* YOUR CSS STYLES */
+
+
+
+#main-title{
+    text-align: center;
+}
+
+.butt{
+    background: white;
+    margin-bottom: 10px;
+    border:1px solid black;
+    font-weight: bold;
+
+
+}
+
+.butt:hover {
+    color: purple;
+}
+
+.buttons{
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    font-family: "Circular Std";
+}
+
+#parasites{
+    margin-top: 50px;
+}
+
+#mosquito{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#header{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: 0;
+}
+
+#intro{
+    font-style: italic;
+    text-align: center;
+}
+#line-chart{
+
+}
+.countries{
+    /*fill: blue;*/
+    stroke: black;
+}
+
+#legendTitle {
+    font-family: "Oxygen";
+    font-size: 15px;
+    color: #666;
+    position: absolute;
+    left: 120px;
+    top: 595px;
+    /*margin-left: -5px;*/
+}
+
+#legend {
+    padding: 1.5em 0 0 1.5em;
+    width: 500px;
+    position: absolute;
+    left: 0px;
+    top: 605px;
+}
+
+li.key {
+    border-top-width: 15px;
+    border-top-style: solid;
+    font-size: .75em;
+    width: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    color: black;
+}
+
+.d3-tip {
+    line-height: 1.5;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-radius: 4px;
+}
+
+.toolTipHead {
+    font-size: 14px;
+}
+
+.toolTipRank {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+
+.toolTipBody {
+    font-size: 13px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-size: 11px;
+}
+
+.line {
+    fill: none;
+    stroke: #1C9A3D;
+    stroke-width: 3px;
+}
+
+
+html {
+    border: 10px solid #dfc27d;
+    /*margin: 30px;*/
+    padding: 0px;
+
+    /*width:80%;*/
+}
+
+h1{
+    color: #8c510a;
+}
+
+.facts p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.facts h2{
+    text-align: center;
+    color:#01665e;
+    font-weight: bold;
+}
+
+.facts b{
+    font-size: 26px;
+    color:#35978f;
+}
